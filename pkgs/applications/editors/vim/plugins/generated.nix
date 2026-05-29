@@ -9732,6 +9732,20 @@ final: prev: {
     meta.hydraPlatforms = [ ];
   };
 
+  milli-nvim = buildVimPlugin {
+    pname = "milli.nvim";
+    version = "0.1.1";
+    src = fetchFromGitHub {
+      owner = "Amansingh-afk";
+      repo = "milli.nvim";
+      tag = "v0.1.1";
+      hash = "sha256-OpJ+JPCBtttTeVthQWmXXTSwYlQM4nBXTI0lSA6KmHQ=";
+    };
+    meta.homepage = "https://github.com/Amansingh-afk/milli.nvim/";
+    meta.license = getLicenseFromSpdxId "MIT";
+    meta.hydraPlatforms = [ ];
+  };
+
   mini-ai = buildVimPlugin {
     pname = "mini.ai";
     version = "0.17.0-unstable-2026-05-21";
@@ -14924,6 +14938,20 @@ final: prev: {
     meta.hydraPlatforms = [ ];
   };
 
+  presenting-nvim = buildVimPlugin {
+    pname = "presenting.nvim";
+    version = "0.1.0";
+    src = fetchFromGitHub {
+      owner = "sotte";
+      repo = "presenting.nvim";
+      tag = "0.1.0";
+      hash = "sha256-0EwVYD9aif/af+Vz6/03vwAbkuxM2hR2dQuyLc9oOaY=";
+    };
+    meta.homepage = "https://github.com/sotte/presenting.nvim/";
+    meta.license = getLicenseFromSpdxId "MIT";
+    meta.hydraPlatforms = [ ];
+  };
+
   presenting-vim = buildVimPlugin {
     pname = "presenting.vim";
     version = "0.1.0-unstable-2023-12-30";
@@ -15496,6 +15524,20 @@ final: prev: {
     };
     meta.homepage = "https://github.com/stevearc/resession.nvim/";
     meta.license = getLicenseFromSpdxId "MIT";
+    meta.hydraPlatforms = [ ];
+  };
+
+  resolved-nvim = buildVimPlugin {
+    pname = "resolved.nvim";
+    version = "0-unstable-2026-03-22";
+    src = fetchFromGitHub {
+      owner = "noamsto";
+      repo = "resolved.nvim";
+      rev = "156bec20c460d28cc4b78bf6a265ea45447d413f";
+      hash = "sha256-ZwERVahrkkgRmDflJT6yf19ezv+YuTzY9/rTDpHst8Y=";
+    };
+    meta.homepage = "https://github.com/noamsto/resolved.nvim/";
+    meta.license = unfree;
     meta.hydraPlatforms = [ ];
   };
 
